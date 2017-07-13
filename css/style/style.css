@@ -600,12 +600,6 @@ News section
         width: 100%;
         height: auto !important;
         padding: 0 5px; } }
-    @media (min-width: 1266px) {
-        .news-left-data {
-            height: 192px; }
-        .news-right-data {
-            height: 93px; }
-    }
   .news-left-img {
     float: left;
     width: 31.9%; }
