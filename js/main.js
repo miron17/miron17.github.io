@@ -4,8 +4,8 @@
     var leftData = document.querySelectorAll('.news-left-data');
     var rightImg = document.querySelector('.news-right-img img');
     var rightData = document.querySelectorAll('.news-right-data');
-    var leftHeight = leftImg.offsetHeight;
-    var rightHeight = rightImg.offsetHeight;
+    var leftHeight = leftImg.clientHeight;
+    var rightHeight = rightImg.clientHeight;
 
     setHeight(leftData, leftHeight);
     setHeight(rightData, rightHeight);
