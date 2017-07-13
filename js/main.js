@@ -1,8 +1,8 @@
 (function ()
 {
-    var leftImg = document.querySelector('.news-left-img');
+    var leftImg = document.querySelector('.news-left-img img');
     var leftData = document.querySelectorAll('.news-left-data');
-    var rightImg = document.querySelector('.news-right-img');
+    var rightImg = document.querySelector('.news-right-img img');
     var rightData = document.querySelectorAll('.news-right-data');
     var leftHeight = leftImg.offsetHeight;
     var rightHeight = rightImg.offsetHeight;
